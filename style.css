@@ -259,7 +259,7 @@ body {
 .con_3 {
   margin: auto;
   height: 80vh;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .con_4 {
@@ -356,6 +356,17 @@ body {
 
 .con_5 {
   padding-top: 10%;
+  padding-bottom: 10%;
+  /* width: 95%; */
+  margin: auto;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(50deg, #fff, #737587);
+  background: radial-gradient(
+    900% 107% at 50% 15%,
+    transparent 37.41%,
+    #6b7280 80%,
+    #fff 50%
+  );
   /* color: white; */
 }
 
@@ -482,4 +493,63 @@ body {
 
 .footer {
   height: 80vh;
+  padding-top: 10%;
+  /* background-color: red; */
+}
+
+.footer__atas {
+  width: 90%;
+  margin: auto;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  width: 30%;
+  background-color: black;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+}
+
+.text {
+  padding-top: 10%;
+  max-width: 95%;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.mid {
+  width: 20%;
+  background-color: white;
+  /* text-align: left; */
+}
+
+.content__mid__footer {
+  width: 80%;
+  margin: auto;
+  /* background-color: black; */
+  color: #6b7280;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.content__mid__footer p {
+  margin-bottom: 20%;
+}
+
+.right {
+  width: 30%;
+  background-color: rebeccapurple;
+}
+
+.right p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
 }
